@@ -1,4 +1,4 @@
-![](doctoralia_logo.png) ![](Scrapy-Logo-Horizontal.png)
+![](doctoralia_logo.png)
 # Scrappying data from doctoralia.com using scrapy framework
 
 This code is written using Python 3.6 and uses [scrapy 1.4.0.](https://scrapy.org/).
@@ -18,3 +18,5 @@ scrapy crawl doctoralia
 ```
 
 Your csv file with the scrapped data should be on doctoralia.com/doctoralia/doctoralia_data.csv
+
+![](Scrapy-Logo-Horizontal.png)
