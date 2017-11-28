@@ -68,6 +68,9 @@ ROBOTSTXT_OBEY = True
 #    'doctoralia.pipelines.DoctoraliaPipeline': 300,
 #}
 
+ITEM_PIPELINES = {'doctoralia.WriteToCsv.WriteToCsv' : 300}
+csv_file_path = './doctoralia_data.csv'
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
