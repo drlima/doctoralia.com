@@ -1,5 +1,5 @@
 ![doctoralia_logo](doctoralia_logo.png)
-# Scrappying data from doctoralia.com using scrapy framework
+# Scraping doctoralia.com using scrapy
 
 This code is written using Python 3.6 and uses [scrapy 1.4.0](https://scrapy.org/).
 
