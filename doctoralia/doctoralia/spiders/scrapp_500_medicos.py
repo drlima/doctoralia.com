@@ -22,7 +22,5 @@ class doctSpider(scrapy.Spider):
 
         # navigating to next pages
         href = response.css("li.PagedList-skipToNext a::attr(href)").extract_first()
-        # this will make us get only the 500 first doctors,
-        # as each page shows 20 rows
-        if int(href.replace('medicos', '').replace('/', '')) <= 25:
-            yield response.follow(href, callback=self.parse)
+        yield response.follow(href, callback=self.parse)
+
