@@ -1,7 +1,7 @@
 ![doctoralia_logo](doctoralia_logo.png)
 # Scraping doctoralia.com using scrapy
-
-This code is written using Python 3.6 and uses [scrapy 1.4.0](https://scrapy.org/).
+## Installing scrapy
+This code is written on Python 3.6 and uses [scrapy 1.4.0](https://scrapy.org/).
 
 You should install scrapy with pip:
 ```pip install --user scrapy```
@@ -10,7 +10,7 @@ You should install scrapy with pip:
 
 This spider starts from http://www.doctoralia.com.br/medicos, and goes to the next pages until reach 500 occurrences.
 
-# Usage
+## Usage
 To run this spider, open the terminal on this repository, then type:
 ```
 cd doctoralia
@@ -19,7 +19,7 @@ scrapy crawl doctoralia
 
 Your csv file with the scrapped data should be on doctoralia.com/doctoralia/doctoralia_data.csv
 
-# Further observations
+## Further observations
 - This spider was designed for getting only the 500 first occurences, thus it will not scrap the entire web site;
 - I have only attached instructions for running this spider localy but we could also use scrapinghub's cloud, which has excellent tools for debugging, and data checking;
 - The csv structure should be: 
